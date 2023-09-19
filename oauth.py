@@ -4,8 +4,8 @@ class SpotifyOauthClient():
 
     def __init__(self):
 
-        self.CLIENT_ID = "593afdf556c84f6eb44315ba64305fd2"
-        self.CLIENT_SECRET = "c2741ecbab2042ed8bfd021ec0f60c81"
+        self.CLIENT_ID = "24797dfa6f3f42059849c9346c391430"
+        self.CLIENT_SECRET = "367522ad96224bce83741cca2ddfd5ed"
         self.REDIRECT_URI = "https://spoti-enhancer.onrender.com/redirect/"
         self.SCOPE = "user-top-read user-read-private user-follow-read playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private"
         self.OAUTH_AUTHORIZE_URL = "https://accounts.spotify.com/authorize"
